@@ -1,0 +1,143 @@
+& {
+
+  footer,
+  nav {
+    padding: 18px 0;
+  }
+
+  .logo {
+    max-width: 107px;
+  }
+
+  .phone {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .head {
+    padding: 20px 0;
+  }
+
+  .records-nav li .title {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .records-nav li .info {
+    font-size: 11px;
+    line-height: 119.4%;
+  }
+
+  .records-nav li {
+    padding: 5px;
+    width: 33.3333%;
+  }
+
+  .records-nav li .open-time {
+    font-size: 8px;
+    line-height: 107.9%;
+  }
+
+  .records-nav li .title .text {
+    padding-right: 21px;
+  }
+
+  .records-nav li.open .title .text:before,
+  .records-nav li .title .text:before {
+    height: 15px;
+    width: 15px;
+    background-size: 82%;
+  }
+
+  .head-timer {
+    -ms-flex-order: -1;
+    order: -1;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding: 12px 17px 0;
+    background-size: 67px;
+
+    p {
+      font-size: 15px;
+      line-height: 16px;
+      max-width: 194.62px;
+
+    }
+
+    .timer {
+      max-width: 219.41px;
+      //      max-width: 204.41px;
+      padding-bottom: 25px;
+
+      > span .digit {
+        font-size: 36px;
+
+      }
+    }
+  }
+
+  .timer > span .title {
+    font-size: 10px;
+    bottom: -10px;
+  }
+
+  .records-nav li.open .title {
+    margin-bottom: 0;
+    margin-top: 25px;
+  }
+
+  .records-nav li .title .text:before {
+    top: 1px;
+  }
+
+  .head {
+    .container {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  .video iframe {
+    max-width: 729px;
+    width: 100%;
+    max-height: 414px;
+    min-height: 49vw;
+  }
+
+  .head-item .title {
+    font-size: 23px;
+  }
+
+  .head-item {
+    max-width: 270.81px;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+      font-size: 23px;
+      line-height: 33px;
+      margin-bottom: 26px;
+    }
+  }
+
+  .order-btn {
+    margin-bottom: 33px;
+  }
+
+  .head-item:before {
+    right: -50px;
+
+  }
+
+  footer {
+    p {
+      font-size: 10px;
+      line-height: 15px;
+    }
+  }
+
+  .records-nav li.open.active .title .text:before,
+  .records-nav li.open:hover .title .text:before {
+    top: 2px;
+  }
+}

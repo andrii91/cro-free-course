@@ -1,0 +1,90 @@
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-Regular.eot');
+	src: local('../fonts/Circe'), local('../fonts/Circe-Regular'),
+		url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Regular.woff') format('woff'),
+		url('../fonts/Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-ExtraLight.eot');
+	src: local('../fonts/Circe ExtraLight'), local('../fonts/Circe-ExtraLight'),
+		url('../fonts/Circe-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-ExtraLight.woff') format('woff'),
+		url('../fonts/Circe-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-Thin.eot');
+	src: local('../fonts/Circe Thin'), local('../fonts/Circe-Thin'),
+		url('../fonts/Circe-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Thin.woff') format('woff'),
+		url('../fonts/Circe-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-Light.eot');
+	src: local('../fonts/Circe Light'), local('../fonts/Circe-Light'),
+		url('../fonts/Circe-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Light.woff') format('woff'),
+		url('../fonts/Circe-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-Bold.eot');
+	src: local('../fonts/Circe Bold'), local('../fonts/Circe-Bold'),
+		url('../fonts/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Bold.woff') format('woff'),
+		url('../fonts/Circe-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-ExtraBold.eot');
+	src: local('../fonts/Circe ExtraBold'), local('../fonts/Circe-ExtraBold'),
+		url('../fonts/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-ExtraBold.woff') format('woff'),
+		url('../fonts/Circe-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb{
+  border-width: 1px 1px 1px 2px;
+  border-color: #fff;
+  background-color: #2B2B2B;
+}
+
+::-webkit-scrollbar-track{
+  border-width: 1px;
+  background-color: #eee;
+  border-color: #fff;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import 'info/bootstrap';
+@import 'info/main';
+
+
